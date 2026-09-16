@@ -1,0 +1,8 @@
+I am learning Javascript.
+ Javascript is easy.
+I like programming.
+I am practicing daily.
+File handling is useful.
+Hello
+Javascript is easy
+I am learning Javascript
