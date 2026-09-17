@@ -1,0 +1,3 @@
+ValueEroor: invalid literal for int() with base 10: 'ghjvj'
+
+ZeroDivisionError: division by zero
