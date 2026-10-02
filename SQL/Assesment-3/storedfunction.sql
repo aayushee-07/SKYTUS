@@ -1,0 +1,12 @@
+DELIMITER &&
+
+CREATE FUNCTION CalculateTax(price DECIMAL(10,2))
+RETURNS DECIMAL(10,2)
+DETERMINISTIC
+BEGIN
+    RETURN price + (price * 0.10);
+END &&
+
+DELIMITER ;
+
+SELECT CalculateTax(1000);

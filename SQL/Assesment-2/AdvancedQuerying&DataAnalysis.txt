@@ -1,0 +1,32 @@
+SQL ASSESSMENT 2
+Advanced Querying & Data Analysis
+
+
+Q1. What is the difference between INNER JOIN and LEFT JOIN?
+
+Answer:
+INNER JOIN returns only the records that have matching values
+in both tables.
+
+LEFT JOIN returns all records from the left table and the
+matching records from the right table. If there is no match,
+NULL is returned for the right table columns.
+
+
+Q2. What is the difference between WHERE and HAVING?
+
+Answer:
+WHERE filters individual rows before GROUP BY.
+
+HAVING filters groups after GROUP BY.
+
+
+Q3. What is the difference between IN and EXISTS?
+
+Answer:
+IN checks whether a value matches any value in a list or
+subquery result.
+
+EXISTS checks whether the subquery returns at least one row.
+
+
