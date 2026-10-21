@@ -1,0 +1,23 @@
+{% load custom_filters %}
+
+{% block content %}
+    <h2>Available Courses</h2>
+
+    <ul>
+        {% for item in items %}
+            <li>
+                {{ item.name }}
+                {% if item.available %}
+                    - Available
+                {% else %}
+                    - Not Available
+                {% endif %}
+            </li>
+        {% empty %}
+            <li>No courses found.</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Custom Template Filter</h2>
+    <p>{{ "Django makes web development easier and faster"|truncate_words:4 }}</p>
+{% endblock %}
